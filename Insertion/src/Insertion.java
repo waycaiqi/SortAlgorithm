@@ -16,8 +16,9 @@ public class Insertion{
 			System.out.print(a[i]+"  ");
 		}		
 	}
+	
 	public static void inser_sort(int[] a)
-	{
+	{  
 		int temp;
 		if(a[0]>a[1]) 
 		{

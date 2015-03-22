@@ -1,5 +1,5 @@
 // my first insertion algorithm  
-public class Insertion{
+/*public class Insertion{
 	public static void main(String[] args)
 	{
 		int[] c={34,8,10,154,25,154,58,95,98,6,32,154,446,46};//
@@ -40,9 +40,9 @@ public class Insertion{
 		}		
 	}
 }
-
-
-/*public class Insertion {    
+*/
+// wiki 
+public class Insertion {    
     public static void insertionSort(Comparable []data) {    
         for(int index = 1; index < data.length; index++) {    
             Comparable key = data[index];    
@@ -68,4 +68,4 @@ public class Insertion{
         for(int i = 0; i < c.length; i++)    
             System.out.print( c[i]+"->");    
     }    
-}  */
+}  
